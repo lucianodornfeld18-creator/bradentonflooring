@@ -346,7 +346,7 @@ footer{background:#131110;color:#b8b0a0;margin-top:4.5rem;padding:3.4rem 0 0;bor
       </div>
     </div>
     <div class="hero-visual">
-      <form class="qform" action="#" method="post">
+      <form class="qform" data-lead action="#" method="post">
         <h3>Request My Private Estimate</h3>
         <p class="sub">Written line-item quote within 24 hours — free, no obligation.</p>
         <div class="row2">
@@ -606,5 +606,20 @@ footer{background:#131110;color:#b8b0a0;margin-top:4.5rem;padding:3.4rem 0 0;bor
   </div>
 </footer>
 
+<script>
+document.querySelectorAll('form[data-lead]').forEach(function(f){
+  f.addEventListener('submit',function(e){
+    e.preventDefault();
+    var btn=f.querySelector('button[type=submit],button');
+    var data={};
+    f.querySelectorAll('input,select,textarea').forEach(function(el){if(el.name)data[el.name]=el.value;});
+    var t=btn?btn.textContent:''; if(btn){btn.disabled=true;btn.textContent='Sending…';}
+    fetch('https://bf-portal.lucianodornfeld18.workers.dev/api/lead',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify(data)})
+      .then(function(r){if(!r.ok)throw 0;
+        f.innerHTML='<div style="grid-column:1/-1;text-align:center;padding:1.5rem;background:rgba(201,163,92,.12);border:1px solid #c9a35c;border-radius:12px"><div style="font-size:2rem">✅</div><p style="font-weight:700;margin:.4rem 0;color:#8a6a2e">Thank you! We’ll be in touch within 24 hours.</p><p style="font-size:.85rem;color:#7c7466">Prefer to talk now? Call (941) 274-5560.</p></div>';})
+      .catch(function(){if(btn){btn.disabled=false;btn.textContent=t;}alert('Something went wrong — please call (941) 274-5560.');});
+  });
+});
+</script>
 </body>
 </html>
