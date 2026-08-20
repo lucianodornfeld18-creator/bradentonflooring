@@ -53,8 +53,9 @@ section{padding:4.2rem 0}
 /* header */
 header{position:sticky;top:0;z-index:900;background:rgba(20,18,16,.93);backdrop-filter:blur(12px);border-bottom:1px solid rgba(201,163,92,.28)}
 .nav{display:flex;align-items:center;justify-content:space-between;gap:1rem;padding:.8rem 0}
-.logo{font-family:var(--fh);font-weight:400;font-size:1.28rem;color:#f4efe6;text-decoration:none;display:flex;align-items:center;gap:.55rem}
-.logo-mark{width:34px;height:34px;border-radius:9px;background:linear-gradient(140deg,#c9a35c,#8a6630);color:#1d1a15;display:grid;place-items:center;font-size:.95rem;font-family:var(--fb);font-weight:800}
+.logo{display:inline-flex;align-items:center;text-decoration:none;background:#f7f2e8;border:1px solid rgba(201,163,92,.45);border-radius:10px;padding:.24rem .46rem;box-shadow:0 4px 14px rgba(0,0,0,.18)}
+.logo img{display:block;width:168px;height:auto}
+.footer-logo{background:#f7f2e8}
 .menu{display:flex;align-items:center;gap:1.35rem;list-style:none}
 .menu>li{position:relative}
 .menu a{color:#e8e2d4;text-decoration:none;font-size:.92rem;font-weight:500}
@@ -200,6 +201,8 @@ footer{background:#131110;color:#b8b0a0;margin-top:4.5rem;padding:3.4rem 0 0;bor
   .burger{display:block}
 }
 @media(max-width:560px){
+  .logo img{width:126px}
+  .nav-cta .btn{display:none}
   .svc-grid,.area-grid,.why-grid,.steps,.pro-grid{grid-template-columns:1fr}
   .f-grid{grid-template-columns:1fr}
   section{padding:3rem 0}
@@ -266,7 +269,7 @@ footer{background:#131110;color:#b8b0a0;margin-top:4.5rem;padding:3.4rem 0 0;bor
 
 <header>
   <div class="shell nav">
-    <a class="logo" href="/"><span class="logo-mark">BF</span> Bradenton Flooring</a>
+    <a class="logo" href="/" aria-label="Bradenton Flooring home"><img src="/images/bradenton-flooring-logo.png" alt="Bradenton Flooring" width="2172" height="724"></a>
     <ul class="menu">
       <li><a href="/flooring/">Flooring Services ▾</a>
         <div class="drop">
@@ -526,7 +529,7 @@ footer{background:#131110;color:#b8b0a0;margin-top:4.5rem;padding:3.4rem 0 0;bor
   <div class="shell">
     <div class="f-grid">
       <div class="f-brand">
-        <a class="logo" style="color:#fff" href="/"><span class="logo-mark">BF</span> Bradenton Flooring</a>
+        <a class="logo footer-logo" href="/" aria-label="Bradenton Flooring home"><img src="/images/bradenton-flooring-logo.png" alt="Bradenton Flooring" width="2172" height="724" loading="lazy" decoding="async"></a>
         <p>Floors engineered for the Florida you actually live in. Waterproof LVP, tile, hardwood, laminate and carpet — installed to a documented 47-point standard across Manatee &amp; Sarasota counties.</p>
       </div>
       <div>
