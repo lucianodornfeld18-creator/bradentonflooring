@@ -1,2 +1,0 @@
-{{INDEXNOW_KEY}}
-# rename this file to [key].txt with the real IndexNow key at deploy

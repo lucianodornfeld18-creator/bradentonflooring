@@ -1,0 +1,351 @@
+[
+  {
+    "url": "https://bradentonflooring.com/",
+    "type": "existing core page"
+  },
+  {
+    "url": "https://bradentonflooring.com/about/",
+    "type": "existing core page"
+  },
+  {
+    "url": "https://bradentonflooring.com/blog/",
+    "type": "editorial"
+  },
+  {
+    "url": "https://bradentonflooring.com/blog/best-flooring-for-dogs-cats-florida/",
+    "type": "editorial guide",
+    "primaryIntent": "Best Flooring for Dogs & Cats in Florida | Pet Floor Guide",
+    "commercialTarget": "https://bradentonflooring.com/flooring/"
+  },
+  {
+    "url": "https://bradentonflooring.com/blog/best-flooring-for-florida-condos/",
+    "type": "editorial"
+  },
+  {
+    "url": "https://bradentonflooring.com/blog/best-flooring-for-florida-humidity/",
+    "type": "editorial guide",
+    "primaryIntent": "Best Flooring for Florida Humidity | Room-by-Room Guide",
+    "commercialTarget": "https://bradentonflooring.com/flooring/"
+  },
+  {
+    "url": "https://bradentonflooring.com/blog/concrete-slab-moisture-flooring-florida/",
+    "type": "editorial guide",
+    "primaryIntent": "Concrete Slab Moisture & Flooring in Florida | Test Guide",
+    "commercialTarget": "https://bradentonflooring.com/flooring/"
+  },
+  {
+    "url": "https://bradentonflooring.com/blog/flooring-cost-in-bradenton-fl-2026/",
+    "type": "editorial"
+  },
+  {
+    "url": "https://bradentonflooring.com/blog/flooring-installation-timeline-florida/",
+    "type": "editorial guide",
+    "primaryIntent": "How Long Does Flooring Installation Take? Florida Timelines",
+    "commercialTarget": "https://bradentonflooring.com/flooring/"
+  },
+  {
+    "url": "https://bradentonflooring.com/blog/flooring-removal-subfloor-prep-cost/",
+    "type": "editorial guide",
+    "primaryIntent": "Floor Removal & Subfloor Prep Cost | Florida Quote Guide",
+    "commercialTarget": "https://bradentonflooring.com/flooring/"
+  },
+  {
+    "url": "https://bradentonflooring.com/blog/how-to-compare-flooring-estimates/",
+    "type": "editorial guide",
+    "primaryIntent": "How to Compare Flooring Estimates | 21-Point Checklist",
+    "commercialTarget": "https://bradentonflooring.com/flooring/"
+  },
+  {
+    "url": "https://bradentonflooring.com/blog/lvp-vs-tile-florida/",
+    "type": "editorial"
+  },
+  {
+    "url": "https://bradentonflooring.com/carpet/",
+    "type": "existing core page"
+  },
+  {
+    "url": "https://bradentonflooring.com/carpet/lakewood-ranch/",
+    "type": "service × city",
+    "primaryIntent": "carpet installation Lakewood Ranch FL",
+    "parentHub": "https://bradentonflooring.com/flooring/lakewood-ranch/"
+  },
+  {
+    "url": "https://bradentonflooring.com/carpet/palmetto/",
+    "type": "service × city",
+    "primaryIntent": "carpet installation Palmetto FL",
+    "parentHub": "https://bradentonflooring.com/flooring/palmetto/"
+  },
+  {
+    "url": "https://bradentonflooring.com/carpet/parrish/",
+    "type": "service × city",
+    "primaryIntent": "carpet installation Parrish FL",
+    "parentHub": "https://bradentonflooring.com/flooring/parrish/"
+  },
+  {
+    "url": "https://bradentonflooring.com/carpet/sarasota/",
+    "type": "service × city",
+    "primaryIntent": "carpet installation Sarasota FL",
+    "parentHub": "https://bradentonflooring.com/flooring/sarasota/"
+  },
+  {
+    "url": "https://bradentonflooring.com/carpet/venice/",
+    "type": "service × city",
+    "primaryIntent": "carpet installation Venice FL",
+    "parentHub": "https://bradentonflooring.com/flooring/venice/"
+  },
+  {
+    "url": "https://bradentonflooring.com/commercial-flooring/",
+    "type": "existing core page"
+  },
+  {
+    "url": "https://bradentonflooring.com/commercial-flooring/lakewood-ranch/",
+    "type": "service × city",
+    "primaryIntent": "commercial flooring Lakewood Ranch FL",
+    "parentHub": "https://bradentonflooring.com/flooring/lakewood-ranch/"
+  },
+  {
+    "url": "https://bradentonflooring.com/commercial-flooring/palmetto/",
+    "type": "service × city",
+    "primaryIntent": "commercial flooring Palmetto FL",
+    "parentHub": "https://bradentonflooring.com/flooring/palmetto/"
+  },
+  {
+    "url": "https://bradentonflooring.com/commercial-flooring/parrish/",
+    "type": "service × city",
+    "primaryIntent": "commercial flooring Parrish FL",
+    "parentHub": "https://bradentonflooring.com/flooring/parrish/"
+  },
+  {
+    "url": "https://bradentonflooring.com/commercial-flooring/sarasota/",
+    "type": "service × city",
+    "primaryIntent": "commercial flooring Sarasota FL",
+    "parentHub": "https://bradentonflooring.com/flooring/sarasota/"
+  },
+  {
+    "url": "https://bradentonflooring.com/commercial-flooring/venice/",
+    "type": "service × city",
+    "primaryIntent": "commercial flooring Venice FL",
+    "parentHub": "https://bradentonflooring.com/flooring/venice/"
+  },
+  {
+    "url": "https://bradentonflooring.com/contact/",
+    "type": "existing core page"
+  },
+  {
+    "url": "https://bradentonflooring.com/flooring/",
+    "type": "existing core page"
+  },
+  {
+    "url": "https://bradentonflooring.com/flooring/lakewood-ranch/",
+    "type": "city hub",
+    "primaryIntent": "flooring installation Lakewood Ranch FL",
+    "avoids": [
+      "lvp Lakewood Ranch",
+      "tile Lakewood Ranch",
+      "hardwood Lakewood Ranch",
+      "laminate Lakewood Ranch",
+      "carpet Lakewood Ranch",
+      "commercial Lakewood Ranch"
+    ]
+  },
+  {
+    "url": "https://bradentonflooring.com/flooring/palmetto/",
+    "type": "city hub",
+    "primaryIntent": "flooring installation Palmetto FL",
+    "avoids": [
+      "lvp Palmetto",
+      "tile Palmetto",
+      "hardwood Palmetto",
+      "laminate Palmetto",
+      "carpet Palmetto",
+      "commercial Palmetto"
+    ]
+  },
+  {
+    "url": "https://bradentonflooring.com/flooring/parrish/",
+    "type": "city hub",
+    "primaryIntent": "flooring installation Parrish FL",
+    "avoids": [
+      "lvp Parrish",
+      "tile Parrish",
+      "hardwood Parrish",
+      "laminate Parrish",
+      "carpet Parrish",
+      "commercial Parrish"
+    ]
+  },
+  {
+    "url": "https://bradentonflooring.com/flooring/sarasota/",
+    "type": "city hub",
+    "primaryIntent": "flooring installation Sarasota FL",
+    "avoids": [
+      "lvp Sarasota",
+      "tile Sarasota",
+      "hardwood Sarasota",
+      "laminate Sarasota",
+      "carpet Sarasota",
+      "commercial Sarasota"
+    ]
+  },
+  {
+    "url": "https://bradentonflooring.com/flooring/venice/",
+    "type": "city hub",
+    "primaryIntent": "flooring installation Venice FL",
+    "avoids": [
+      "lvp Venice",
+      "tile Venice",
+      "hardwood Venice",
+      "laminate Venice",
+      "carpet Venice",
+      "commercial Venice"
+    ]
+  },
+  {
+    "url": "https://bradentonflooring.com/hardwood/",
+    "type": "existing core page"
+  },
+  {
+    "url": "https://bradentonflooring.com/hardwood/lakewood-ranch/",
+    "type": "service × city",
+    "primaryIntent": "hardwood flooring Lakewood Ranch FL",
+    "parentHub": "https://bradentonflooring.com/flooring/lakewood-ranch/"
+  },
+  {
+    "url": "https://bradentonflooring.com/hardwood/palmetto/",
+    "type": "service × city",
+    "primaryIntent": "hardwood flooring Palmetto FL",
+    "parentHub": "https://bradentonflooring.com/flooring/palmetto/"
+  },
+  {
+    "url": "https://bradentonflooring.com/hardwood/parrish/",
+    "type": "service × city",
+    "primaryIntent": "hardwood flooring Parrish FL",
+    "parentHub": "https://bradentonflooring.com/flooring/parrish/"
+  },
+  {
+    "url": "https://bradentonflooring.com/hardwood/sarasota/",
+    "type": "service × city",
+    "primaryIntent": "hardwood flooring Sarasota FL",
+    "parentHub": "https://bradentonflooring.com/flooring/sarasota/"
+  },
+  {
+    "url": "https://bradentonflooring.com/hardwood/venice/",
+    "type": "service × city",
+    "primaryIntent": "hardwood flooring Venice FL",
+    "parentHub": "https://bradentonflooring.com/flooring/venice/"
+  },
+  {
+    "url": "https://bradentonflooring.com/laminate/",
+    "type": "existing core page"
+  },
+  {
+    "url": "https://bradentonflooring.com/laminate/lakewood-ranch/",
+    "type": "service × city",
+    "primaryIntent": "laminate flooring Lakewood Ranch FL",
+    "parentHub": "https://bradentonflooring.com/flooring/lakewood-ranch/"
+  },
+  {
+    "url": "https://bradentonflooring.com/laminate/palmetto/",
+    "type": "service × city",
+    "primaryIntent": "laminate flooring Palmetto FL",
+    "parentHub": "https://bradentonflooring.com/flooring/palmetto/"
+  },
+  {
+    "url": "https://bradentonflooring.com/laminate/parrish/",
+    "type": "service × city",
+    "primaryIntent": "laminate flooring Parrish FL",
+    "parentHub": "https://bradentonflooring.com/flooring/parrish/"
+  },
+  {
+    "url": "https://bradentonflooring.com/laminate/sarasota/",
+    "type": "service × city",
+    "primaryIntent": "laminate flooring Sarasota FL",
+    "parentHub": "https://bradentonflooring.com/flooring/sarasota/"
+  },
+  {
+    "url": "https://bradentonflooring.com/laminate/venice/",
+    "type": "service × city",
+    "primaryIntent": "laminate flooring Venice FL",
+    "parentHub": "https://bradentonflooring.com/flooring/venice/"
+  },
+  {
+    "url": "https://bradentonflooring.com/luxury-vinyl-plank/",
+    "type": "existing core page"
+  },
+  {
+    "url": "https://bradentonflooring.com/luxury-vinyl-plank/lakewood-ranch/",
+    "type": "service × city",
+    "primaryIntent": "luxury vinyl plank Lakewood Ranch FL",
+    "parentHub": "https://bradentonflooring.com/flooring/lakewood-ranch/"
+  },
+  {
+    "url": "https://bradentonflooring.com/luxury-vinyl-plank/palmetto/",
+    "type": "service × city",
+    "primaryIntent": "luxury vinyl plank Palmetto FL",
+    "parentHub": "https://bradentonflooring.com/flooring/palmetto/"
+  },
+  {
+    "url": "https://bradentonflooring.com/luxury-vinyl-plank/parrish/",
+    "type": "service × city",
+    "primaryIntent": "luxury vinyl plank Parrish FL",
+    "parentHub": "https://bradentonflooring.com/flooring/parrish/"
+  },
+  {
+    "url": "https://bradentonflooring.com/luxury-vinyl-plank/sarasota/",
+    "type": "service × city",
+    "primaryIntent": "luxury vinyl plank Sarasota FL",
+    "parentHub": "https://bradentonflooring.com/flooring/sarasota/"
+  },
+  {
+    "url": "https://bradentonflooring.com/luxury-vinyl-plank/venice/",
+    "type": "service × city",
+    "primaryIntent": "luxury vinyl plank Venice FL",
+    "parentHub": "https://bradentonflooring.com/flooring/venice/"
+  },
+  {
+    "url": "https://bradentonflooring.com/privacy/",
+    "type": "existing core page"
+  },
+  {
+    "url": "https://bradentonflooring.com/service-areas/",
+    "type": "existing core page"
+  },
+  {
+    "url": "https://bradentonflooring.com/terms/",
+    "type": "existing core page"
+  },
+  {
+    "url": "https://bradentonflooring.com/tile/",
+    "type": "existing core page"
+  },
+  {
+    "url": "https://bradentonflooring.com/tile/lakewood-ranch/",
+    "type": "service × city",
+    "primaryIntent": "tile installation Lakewood Ranch FL",
+    "parentHub": "https://bradentonflooring.com/flooring/lakewood-ranch/"
+  },
+  {
+    "url": "https://bradentonflooring.com/tile/palmetto/",
+    "type": "service × city",
+    "primaryIntent": "tile installation Palmetto FL",
+    "parentHub": "https://bradentonflooring.com/flooring/palmetto/"
+  },
+  {
+    "url": "https://bradentonflooring.com/tile/parrish/",
+    "type": "service × city",
+    "primaryIntent": "tile installation Parrish FL",
+    "parentHub": "https://bradentonflooring.com/flooring/parrish/"
+  },
+  {
+    "url": "https://bradentonflooring.com/tile/sarasota/",
+    "type": "service × city",
+    "primaryIntent": "tile installation Sarasota FL",
+    "parentHub": "https://bradentonflooring.com/flooring/sarasota/"
+  },
+  {
+    "url": "https://bradentonflooring.com/tile/venice/",
+    "type": "service × city",
+    "primaryIntent": "tile installation Venice FL",
+    "parentHub": "https://bradentonflooring.com/flooring/venice/"
+  }
+]
